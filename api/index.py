@@ -31,7 +31,7 @@ def submit():
         'saran': request.form.get('saran')
     }
     responses.append(response_data)
-    return redirect(url_for('terimakasih'))
+    return redirect(url_for('thanks.html'))
 
 @app.route('/admin')
 def admin_dashboard():
