@@ -85,24 +85,35 @@
                             <h3 class="h5 mb-3">Pertanyaan Survei</h3>
                             
                             <div class="mb-4">
-                                    <label class="form-label">Secara keseluruhan, seberapa puas Anda dengan layanan kami?</label>
-                                    <div class="btn-group w-100 btn-group-satisfaction" role="group" aria-label="Pilihan Kepuasan"> 
+                                <label class="form-label">Seberapa puas Anda dengan layanan kami?</label>
+                                <div class="btn-group w-100 btn-group-satisfaction" role="group" aria-label="Pilihan Kepuasan">
+                                    
+                                    <input type="radio" class="btn-check" name="kepuasan" id="kepuasan4" value="4" autocomplete="off" required>
+                                    <label class="btn btn-outline-primary" for="kepuasan4">
+                                        <i class="bi bi-emoji-laughing"></i> 
+                                        Sangat Puas
+                                    </label>
 
-                                        <input type="radio" class="btn-check" name="kepuasan" id="kepuasan4" value="4" autocomplete="off" required>
-                                        <label class="btn btn-outline-primary" for="kepuasan4">Sangat Puas</label>
+                                    <input type="radio" class="btn-check" name="kepuasan" id="kepuasan3" value="3" autocomplete="off">
+                                    <label class="btn btn-outline-primary" for="kepuasan3">
+                                        <i class="bi bi-emoji-smile"></i> 
+                                        Puas
+                                    </label>
 
-                                        <input type="radio" class="btn-check" name="kepuasan" id="kepuasan3" value="3" autocomplete="off">
-                                        <label class="btn btn-outline-primary" for="kepuasan3">Puas</label>
+                                    <input type="radio" class="btn-check" name="kepuasan" id="kepuasan2" value="2" autocomplete="off">
+                                    <label class="btn btn-outline-primary" for="kepuasan2">
+                                        <i class="bi bi-emoji-frown"></i> 
+                                        Tidak Puas
+                                    </label>
 
-                                        <input type="radio" class="btn-check" name="kepuasan" id="kepuasan2" value="2" autocomplete="off">
-                                        <label class="btn btn-outline-primary" for="kepuasan2">Tidak Puas</label>
-
-                                        <input type="radio" class="btn-check" name="kepuasan" id="kepuasan1" value="1" autocomplete="off">
-                                        <label class="btn btn-outline-primary" for="kepuasan1">Sangat Tdk Puas</label>
-
-                                    </div>
+                                    <input type="radio" class="btn-check" name="kepuasan" id="kepuasan1" value="1" autocomplete="off">
+                                    <label class="btn btn-outline-primary" for="kepuasan1">
+                                        <i class="bi bi-emoji-angry"></i> 
+                                        Sangat Tdk Puas
+                                    </label>
+                                
                                 </div>
-
+                            </div>
                             <div class="mb-4">
                                 <label for="saran" class="form-label">Saran dan Masukan:</label>
                                 <textarea id="saran" name="saran" rows="4" class="form-control"></textarea>
